@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Login | TorquePro</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="auth-page">
+
+
+<div class="auth-container">
+
+
+    <!-- ==================================================
+         LEFT SIDE
+    ================================================== -->
+
+    <div class="auth-left">
+
+        <div class="auth-overlay"></div>
+
+
+        <div class="auth-left-content">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">
+
+                    <i class="fa-solid fa-truck"></i>
+
+                </span>
+
+                <span>
+
+                    <strong>
+                       Rajan Auto Garage<span>PRO</span>
+                    </strong>
+
+                    <small>
+                        HEAVY VEHICLE SERVICE
+                    </small>
+
+                </span>
+
+            </a>
+
+
+
+            <!-- WELCOME CONTENT -->
+
+            <div class="auth-message">
+
+                <span class="section-tag">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    CUSTOMER PORTAL
+
+                </span>
+
+
+                <h1>
+
+                    KEEP YOUR
+
+                    <span>
+                        VEHICLE MOVING.
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    Sign in to manage your vehicles, book
+                    services and track your workshop requests
+                    from one convenient place.
+
+                </p>
+
+
+                <!-- BENEFITS -->
+
+                <div class="auth-benefits">
+
+
+                    <div>
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <span>
+                            Easy service booking
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <span>
+                            Track your vehicle service
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <span>
+                            Manage vehicle details
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <span>
+                            View service history
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BACK -->
+
+            <div class="auth-back">
+
+                <a href="index.html">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    Back to Website
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         RIGHT SIDE
+    ================================================== -->
+
+    <div class="auth-right">
+
+
+        <div class="login-card">
+
+
+            <!-- MOBILE LOGO -->
+
+            <div class="mobile-logo">
+
+                <a href="index.html" class="logo">
+
+                    <span class="logo-icon">
+
+                        <i class="fa-solid fa-truck"></i>
+
+                    </span>
+
+                    <span>
+
+                        <strong>
+                            TORQUE<span>PRO</span>
+                        </strong>
+
+                        <small>
+                            HEAVY VEHICLE SERVICE
+                        </small>
+
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- LOGIN HEADING -->
+
+            <div class="login-heading">
+
+
+                <span class="login-icon">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </span>
+
+
+                <span class="section-tag">
+
+                    CUSTOMER PORTAL
+
+                </span>
+
+
+                <h2>
+                    Welcome Back
+                </h2>
+
+
+                <p>
+                    Login to continue to your account.
+                </p>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 LOGIN FORM
+            ================================================== -->
+
+            <form id="loginForm">
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-group">
+
+
+                    <div class="label-row">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+
+                        <a href="#">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-lock"></i>
+
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            required
+                        >
+
+
+                        <button
+                            type="button"
+                            class="password-toggle"
+                            id="passwordToggle"
+                        >
+
+                            <i class="fa-regular fa-eye"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- REMEMBER ME -->
+
+                <div class="remember-row">
+
+                    <label class="remember">
+
+                        <input
+                            type="checkbox"
+                            id="remember"
+                        >
+
+                        <span>
+                            Remember me
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+
+                <!-- LOGIN BUTTON -->
+
+                <button
+                    type="submit"
+                    class="login-btn"
+                >
+
+                    Sign In
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </form>
+
+
+
+            <!-- ==================================================
+                 REGISTRATION
+            ================================================== -->
+
+            <div class="register-box">
+
+                <span>
+                    Don't have an account?
+                </span>
+
+
+                <a href="register.html">
+
+                    Create an Account
+
+                </a>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 STAFF / ADMIN LOGIN
+            ================================================== -->
+
+            <div class="staff-login-box">
+
+
+                <div class="staff-login-info">
+
+
+                    <span class="staff-icon">
+
+                        <i class="fa-solid fa-user-shield"></i>
+
+                    </span>
+
+
+                    <div>
+
+                        <strong>
+                            Workshop Staff?
+                        </strong>
+
+
+                        <p>
+
+                            Administrators and authorized
+                            workshop staff can access the
+                            management portal.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <a
+                    href="admin-login.html"
+                    class="staff-login-btn"
+                >
+
+                    Staff / Admin Login
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+            </div>
+
+
+
+            <!-- SECURITY -->
+
+            <div class="secure-login">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <span>
+                    Your information is securely protected.
+                </span>
+
+            </div>
+
+
+
+            <!-- FOOTER LINKS -->
+
+            <div class="login-footer">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <span>
+                    •
+                </span>
+
+                <a href="contact.html">
+                    Contact Support
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
